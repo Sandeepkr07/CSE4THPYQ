@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background: #f9f9f9;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 12px 15px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #e47b2f;
+      color: white;
+    }
+    td a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+    td a:hover {
+      color: #e47b2f;
+      text-decoration: underline;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    tr:hover {
+      background-color: #ffe0c1;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Course List</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sl. No.</th>
+      <th>Code</th>
+      <th>Course Title</th>
+      <th colspan="3">Hours Per Week (L-T-P)</th>
+      <th>Credits</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>100404</td>
+      <td><a href="https://drive.google.com/discretemath" target="_blank">Discrete Mathematics</a></td>
+      <td>3</td><td>0</td><td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>105401</td>
+      <td><a href="https://drive.google.com/coa" target="_blank">Computer Organization & Architecture</a></td>
+      <td>4</td><td>0</td><td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>105403</td>
+      <td><a href="https://drive.google.com/os" target="_blank">Operating Systems</a></td>
+      <td>3</td><td>0</td><td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>105402</td>
+      <td><a href="https://drive.google.com/daa" target="_blank">Design & Analysis of Algorithms</a></td>
+      <td>2</td><td>1</td><td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>100403</td>
+      <td><a href="https://drive.google.com/de" target="_blank">Digital Electronics</a></td>
+      <td>3</td><td>1</td><td>0</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>100407</td>
+      <td><a href="https://drive.google.com/hrdob" target="_blank">Human Resource Development and Organizational Behavior</a></td>
+      <td>2</td><td>1</td><td>0</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
